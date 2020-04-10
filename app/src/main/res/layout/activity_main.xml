@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/september"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="22nd SEPTEMBER 2016 "
+        android:background="@android:color/background_dark"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:paddingLeft="51dp"
+        android:paddingTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="10dp"
+        />
+
+    <TextView
+        android:id="@+id/AUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUS"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/september"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:id="@+id/FRU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRU"
+        android:textSize="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/september"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="50dp"/>
+    <TextView
+        android:id="@+id/AUSTRALIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUSTRALIA"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/AUS"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/FRUNZE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRUNZE"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/FRU"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:paddingLeft="20dp"
+        android:src="@drawable/plane"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="170dp"
+        app:layout_constraintTop_toBottomOf="@+id/september"
+        app:layout_constraintLeft_toLeftOf="@+id/AUSTRALIA"
+
+        android:layout_marginTop="70dp" />
+
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="___________"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        android:text="NAME"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/firstLine" />
+
+    <TextView
+        android:id="@+id/Emma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="370dp"
+        android:text="EMMA ESEN"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Name" />
+
+    <TextView
+        android:id="@+id/Flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLIGHT"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Emma"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/VA423"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VA 423"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Flight"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/Seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEAT"
+        android:textSize="18dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Emma"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32B"
+        android:textSize="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Seat"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:id="@+id/SecondLine"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="___________"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Emma" />
+
+    <TextView
+        android:id="@+id/Departs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEPARTS"
+        android:textSize="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/SecondLine"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15:40"
+        android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Departs"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/Arrives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ARRIVES"
+        android:textSize="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/SecondLine"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="70dp"/>
+
+    <TextView
+        android:id="@+id/Time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19:35"
+        android:textSize="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Arrives"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:id="@+id/lineLast"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="------------------------------"
+        android:textSize="50dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/SecondLine" />
+
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/code"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lineLast" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
